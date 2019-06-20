@@ -1,0 +1,34 @@
+Muro notes for writing non-void method:
+
+**2 methods with same name and parameter can not be defined in same class.
+Ex:boyle olmaz:
+public static void sayHi(){
+}
+public static void sayHi(){
+}
+**We need to make the name different or change the parameter
+
+public static void sayHi(int n){
+}
+ya da :
+public static void SayHello(){
+}
+
+----------------------------
+******* Methods that return a value (not void):
+ public static int giveMe5$5 (){
+ int d = 5; 
+ return d;
+ }
+ 
+ public static String getPresidentName(){
+ return "Donald Trump";
+ }
+ 
+ public static String whatIsYourName(){
+  String name = "Zeliha";
+  return name; //RETURN NON-VOIDLER ICIN STNTAX
+                //CUNKU RETURNS VALUE METODU
+                //RETURN YAZMAZSAN COMPILE ETMEZ!
+ 
+ 
